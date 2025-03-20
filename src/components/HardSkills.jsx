@@ -1,3 +1,5 @@
+import React from "react";
+
 const skillData = [
   {
     name: "React",
@@ -5,8 +7,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <g fill="#61DAFB">
           <circle cx="64" cy="64" r="11.4"></circle>
@@ -21,8 +23,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path
           fill="#1572B6"
@@ -57,8 +59,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 256 256"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path fill="#F7DF1E" d="M0 0h256v256H0z"></path>
         <path d="m67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371c7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259c-19.245 0-30.416-9.967-36.087-21.996m85.07-2.576l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607c9.969 0 16.325-4.984 16.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257c0-18.044 13.747-31.792 35.228-31.792c15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046 0-11.514 4.468-11.514 10.31c0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804c0 21.654-17.012 33.51-39.867 33.51c-22.339 0-36.774-10.654-43.819-24.574"></path>
@@ -71,8 +73,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path
           fill="#E44D26"
@@ -99,8 +101,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path
           fill="#38bdf8"
@@ -115,8 +117,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path
           fill="#ffa000"
@@ -149,8 +151,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 256 256"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <g fill="none">
           <rect
@@ -232,8 +234,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path
           fill="#F34F29"
@@ -248,8 +250,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 256 256"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <g fill="none">
           <rect width="256" height="256" fill="#242938" rx="60"></rect>
@@ -267,8 +269,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="3o"
       >
         <path
           fill="#00618A"
@@ -284,8 +286,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path
           fill="#0acf83"
@@ -316,8 +318,8 @@ const skillData = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
+        width="30"
+        height="30"
       >
         <path
           fill="url(#deviconOriginalPhp0)"
@@ -360,41 +362,19 @@ const skillData = [
       </svg>
     ),
   },
-
-  {
-    name: "Typescript",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 128 128"
-        width="1em"
-        height="1em"
-      >
-        <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
-        <path
-          fill="#007acc"
-          d="M1.5 63.91v62.5h125v-125H1.5zm100.73-5a15.56 15.56 0 0 1 7.82 4.5a20.58 20.58 0 0 1 3 4c0 .16-5.4 3.81-8.69 5.85c-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 0 0-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 0 0 .54 2.34c.83 1.73 2.38 2.76 7.24 4.86c8.95 3.85 12.78 6.39 15.16 10c2.66 4 3.25 10.46 1.45 15.24c-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 0 1-9.52-.1a23 23 0 0 1-12.72-6.63c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 0 1 1.15-.73L82 101l3.59-2.08l.75 1.11a16.78 16.78 0 0 0 4.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 0 0 .69-6.92c-1-1.39-3-2.56-8.59-5c-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 0 1-3.43-6.25a25 25 0 0 1-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 0 1 9.49.26zm-29.34 5.24v5.12H56.66v46.23H45.15V69.26H28.88v-5a49.19 49.19 0 0 1 .12-5.17C29.08 59 39 59 51 59h21.83z"
-        ></path>
-      </svg>
-    ),
-  },
 ];
 
-const Skills = () => {
+export const HardSkills = () => {
   return (
-    <div className="flex flex-col gap-4 bg-dark-900 rounded-lg shadow-lg">
-      <div className="p-6 flex flex-col gap-4">
-        <div className="flex items-center gap-2 h-full">
-          <div className="h-2 w-2 rounded-full bg-black shadow-[0px_0px_10px] shadow-white"></div>
-          <h2 className="text-2xl font-bold">Skills</h2>
-        </div>
-
-        <div className="pl-4 flex flex-col gap-4">
+      
+      <div className="gap-4 p-4 flex flex-col">
+      <h2 className="mb-1 w-full text-m font-bold text-neutral-800 max-md:text-lg max-sm:text-m">Technologies</h2>
+        <div className="pl-4 flex flex-col">
           <div className="flex flex-wrap items-center gap-3">
             {skillData.map((skill, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2 bg-gray-200 text-black text-m px-3 py-2 rounded-lg"
+                className="flex items-center gap-2 bg-gray-100 text-black text-s px-3 py-2 rounded-lg"
               >
                 {skill.icon}
                 <span>{skill.name}</span>
@@ -403,8 +383,5 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
-
-export default Skills;
