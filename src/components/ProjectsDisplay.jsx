@@ -16,7 +16,7 @@ export const ProjectsDisplay = () => {
       altText: "SpendInsight",
       tags: "SpendInsight is a smart expense tracker and bill management app designed to help you maintain your monthly bill payments efficiently.",
       title: "SpendInsight",
-      link: "",
+      link: "https://i.postimg.cc/XvJ2WKHq/sp.png",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export const ProjectsDisplay = () => {
       altText: "Internship Tracker",
       tags: "The DCISM Internship Tracker is a web-based application designed to streamline the internship tracking process for the DCISM.",
       title: "DCISM Internship Tracker",
-      link: "",
+      link: "https://i.postimg.cc/XvJ2WKHq/sp.png",
     },
   ];
 
@@ -39,7 +39,7 @@ export const ProjectsDisplay = () => {
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
-            image={getDirectImageUrl(project.image)}
+            image={getDirectImageUrl(project.link)}
             altText={project.altText}
             tags={project.tags}
             title={
