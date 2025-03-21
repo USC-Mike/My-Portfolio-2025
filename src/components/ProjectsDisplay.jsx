@@ -20,11 +20,11 @@ export const ProjectsDisplay = () => {
     },
     {
       id: 2,
-      image: "https://i.postimg.cc/8PRXmzfp/internship-tracker.png",
+      image: "https://i.imghippo.com/files/xnVq8466FA.png",
       altText: "Internship Tracker",
       tags: "The DCISM Internship Tracker is a web-based application designed to streamline the internship tracking process for the DCISM.",
       title: "DCISM Internship Tracker",
-      link: "https://i.postimg.cc/8PRXmzfp/internship-tracker.png",
+      link: "https://i.imghippo.com/files/xnVq8466FA.png",
     },
   ];
 

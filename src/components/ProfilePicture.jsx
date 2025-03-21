@@ -8,7 +8,7 @@ export const ProfilePicture = () => {
       
       {/* Profile Image */}
       <img
-        src="https://i.postimg.cc/9D8ztH53/profile.jpg"
+        src="https://i.imghippo.com/files/ZFmp9621JE.jpg"
         alt="Mike Pino"
         className="w-full h-full rounded-full object-cover"
       />
