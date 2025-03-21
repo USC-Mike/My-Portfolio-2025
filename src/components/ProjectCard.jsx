@@ -12,11 +12,12 @@ function ProjectCard({ image, altText, tags, title, onClick }) {
       >
         <img src={image} alt={altText} className="object-cover size-full" />
       </figure>
-      <div className="flex flex-col items-start w-full">
-        <p className="w-full m-0 p-0 text-xs text-neutral-600">{tags}</p>
-        <h3 className="flex-1 w-full h-7 m-1 p-0 text-lg font-medium text-gray-900 max-sm:text-base">
+      <div className="flex flex-col  items-start w-full">
+      <h3 className="flex-1 w-full h-7 m-1 p-0 text-lg font-bold text-gray-900 max-sm:text-base">
           {title}
         </h3>
+        <p className="w-full mt-2 p-0 text-xs text-neutral-600">{tags}</p>
+        
       </div>
     </article>
   );

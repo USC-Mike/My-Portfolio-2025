@@ -10,11 +10,6 @@ export const AboutMe = () => {
             solutions.{" "}
           </p>
           <p className="text-black-400 leading-loose mt-3 text-sm">
-            My strong foundation in programming, database management, and web
-            development allows me to excel in creating efficient and
-            user-friendly applications.{" "}
-          </p>
-          <p className="text-black-400 leading-loose mt-3 text-sm">
             Beyond my technical abilities, I am an eager learner who thrives in
             collaborative settings. I am enthusiastic about applying my
             knowledge in a real-world setting and making meaningful

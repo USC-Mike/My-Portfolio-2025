@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-2xl p-6 bg-white rounded-lg shadow-md">
-        <section className="flex gap-6 justify-center items-center max-w-[800px] max-md:px-4 max-md:py-0 max-sm:flex-col max-sm:gap-4 max-sm:text-center">
+        <section className="pl-4 flex gap-6 justify-center items-center max-w-[800px] max-md:px-4 max-md:py-0 max-sm:flex-col max-sm:gap-4 max-sm:text-center">
           <div>
             <ProfilePicture />
           </div>
@@ -23,13 +23,13 @@ export const App = () => {
             <div className="flex gap-6 items-center m-0 p-0 px-0 py-2 max-sm:justify-center">
               <SocialIcons
                 type="linkedin"
-                link="https://www.linkedin.com/in/your-profile/"
+                link="www.linkedin.com/in/kurt-mike-pino-7a6185182"
               />
               <SocialIcons
                 type="github"
-                link="https://github.com/your-profile"
+                link="https://github.com/USC-Mike"
               />
-              <SocialIcons type="email" link="mailto:your-email@example.com" />
+              <SocialIcons type="email" link="mailto:your-kurtmpino@gmail.com" />
             </div>
           </div>
         </section>

@@ -270,7 +270,7 @@ const skillData = [
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
         width="30"
-        height="3o"
+        height="30"
       >
         <path
           fill="#00618A"
@@ -370,14 +370,14 @@ export const HardSkills = () => {
       <div className="gap-4 p-4 flex flex-col">
       <h2 className="mb-1 w-full text-m font-bold text-neutral-800 max-md:text-lg max-sm:text-m">Technologies</h2>
         <div className="pl-4 flex flex-col">
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-wrap items-center gap-2">
             {skillData.map((skill, index) => (
               <div
                 key={index}
                 className="flex items-center gap-2 bg-gray-100 text-black text-s px-3 py-2 rounded-lg"
               >
                 {skill.icon}
-                <span>{skill.name}</span>
+              
               </div>
             ))}
           </div>

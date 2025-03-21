@@ -7,31 +7,19 @@ export const ProjectsDisplay = () => {
   const projects = [
     {
       id: 1,
-      image: "/vite.svg",
-      altText: "hopPhile Android App",
-      tags: "A comprehensive shopping companion application built for Android devices.",
-      title: "ShopPhile Android App",
+      image: "src/assets/sp.png",
+      altText: "SpendInsight",
+      tags: "SpendInsight is a smart expense tracker and bill management app designed to help you maintain your monthly bill payments efficiently.",
+      title: "SpendInsight",
+      link: "",
     },
     {
       id: 2,
-      image: "/vite.svg",
-      altText: "File Sharing",
-      tags: "An intuitive web-based platform for tracking CES points and achievements.",
-      title: "CES Points Tracker Web Application",
-    },
-    {
-      id: 3,
-      image: "/vite.svg",
-      altText: "DCISM OJT Tracker",
+      image: "src/assets/internship_tracker.png",
+      altText: "Internship Tracker",
       tags: "The DCISM Internship Tracker is a web-based application designed to streamline the internship tracking process for the DCISM.",
-      title: "DCISM OJT Tracker",
-    },
-    {
-      id: 4,
-      image: "src/components/t1.jpg",
-      altText: "File Sharing",
-      tags: "mobile, ui design",
-      title: "File Sharing Concept",
+      title: "DCISM Internship Tracker",
+      link: "",
     },
   ];
 
@@ -49,7 +37,11 @@ export const ProjectsDisplay = () => {
             image={project.image}
             altText={project.altText}
             tags={project.tags}
-            title={project.title}
+            title={
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                {project.title}
+              </a>
+            }
             onClick={() => setSelectedImage(project.image)}
           />
         ))}

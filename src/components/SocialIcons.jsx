@@ -2,9 +2,9 @@ import React from "react";
 
 const SocialIcon = ({ type }) => {
   const links = {
-    linkedin: "https://www.linkedin.com/in/your-profile/",
-    github: "https://github.com/your-username",
-    email: "mailto:your-email@example.com",
+    linkedin: "https://www.linkedin.com/in/kurt-mike-pino-7a6185182",  // Added https://
+    github: "https://github.com/USC-Mike",
+    email: "mailto:kurtmpino@gmail.com",
   };
 
   const icons = {
