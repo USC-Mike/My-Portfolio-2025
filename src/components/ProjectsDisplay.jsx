@@ -12,11 +12,11 @@ export const ProjectsDisplay = () => {
   const projects = [
     {
       id: 1,
-      image: "https://i.postimg.cc/XvJ2WKHq/sp.png",
+      image: "https://i.imghippo.com/files/Aohp2406kh.png",
       altText: "SpendInsight",
       tags: "SpendInsight is a smart expense tracker and bill management app designed to help you maintain your monthly bill payments efficiently.",
       title: "SpendInsight",
-      link: "https://i.postimg.cc/XvJ2WKHq/sp.png",
+      link: "https://i.imghippo.com/files/Aohp2406kh.png",
     },
     {
       id: 2,
