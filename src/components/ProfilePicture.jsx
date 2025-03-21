@@ -8,7 +8,7 @@ export const ProfilePicture = () => {
       
       {/* Profile Image */}
       <img
-        src="src/assets/profile.jpg"  // <-- Replace with your image URL or local path
+        src="https://i.postimg.cc/9D8ztH53/profile.jpg"
         alt="Mike Pino"
         className="w-full h-full rounded-full object-cover"
       />
