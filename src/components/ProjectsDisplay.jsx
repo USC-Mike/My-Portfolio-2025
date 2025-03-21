@@ -24,7 +24,7 @@ export const ProjectsDisplay = () => {
       altText: "Internship Tracker",
       tags: "The DCISM Internship Tracker is a web-based application designed to streamline the internship tracking process for the DCISM.",
       title: "DCISM Internship Tracker",
-      link: "https://i.postimg.cc/XvJ2WKHq/sp.png",
+      link: "https://i.postimg.cc/8PRXmzfp/internship-tracker.png",
     },
   ];
 
@@ -39,7 +39,7 @@ export const ProjectsDisplay = () => {
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
-            image={getDirectImageUrl(project.link)}
+            image={getDirectImageUrl(project.image)}
             altText={project.altText}
             tags={project.tags}
             title={
